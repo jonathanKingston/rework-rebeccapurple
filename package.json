@@ -1,0 +1,16 @@
+{
+  "name": "rework-beccapurple",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Convert beccapurple colour to backwards compatible version of the colour",
+  "keywords": [
+    "rework",
+    "color",
+    "beccapurple"
+  ],
+  "devDependencies": {
+    "mocha": "*",
+    "rework": "*"
+  },
+  "main": "lib/index.js"
+}
