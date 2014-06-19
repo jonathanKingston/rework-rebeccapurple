@@ -1,13 +1,23 @@
 {
   "name": "rework-rebeccapurple",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
+  "author": {
+    "name": "Jonathan Kingston",
+    "url": "http://jonathankingston.co.uk/"
+  },
   "description": "Convert rebeccapurple colour to backwards compatible version of the colour",
   "keywords": [
     "rework",
     "color",
+    "meyer",
+    "css",
     "rebeccapurple"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonathanKingston/rework-rebeccapurple.git"
+  },
   "devDependencies": {
     "mocha": "*",
     "rework": "*"
