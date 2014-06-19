@@ -1,32 +1,32 @@
-# rework-beccapurple
+# rework-rebeccapurple
   
-  Converts beccapurple to hex value for more browser support.
+  Converts rebeccapurple to hex value for more browser support.
 
 ## Installation
 
-    $ npm install rework-beccapurple
+    $ npm install rework-rebeccapurple
 
 ## Example
 
 ```js
-var hex = require('rework-beccapurple');
+var hex = require('rework-rebeccapurple');
 
 rework(css)
-  .use(beccapurple)
+  .use(rebeccapurple)
   .toString();
 ```
 
 ## API
 
-  In your CSS, use beccapurple as if they were already supported in all browsers:
+  In your CSS, use rebeccapurple as if they were already supported in all browsers:
 
 ```css
 h2 {
-  color: beccapurple;
+  color: rebeccapurple;
 }
 
 div {
-  background: url(test/image.png) beccapurple;
+  background: url(test/image.png) rebeccapurple;
 }
 ```
 

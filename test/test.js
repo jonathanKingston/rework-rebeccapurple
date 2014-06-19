@@ -2,13 +2,13 @@ var assert = require('assert');
 var fs = require('fs');
 var path = require('path');
 var rework = require('rework');
-var beccapurple = require('..');
+var rebeccapurple = require('..');
 
-describe('rework-beccapurple', function () {
+describe('rework-rebeccapurple', function () {
   it('should work', function () {
     var input = fixture('input');
     var output = fixture('output');
-    var css = rework(input).use(beccapurple).toString().trim();
+    var css = rework(input).use(rebeccapurple).toString().trim();
     assert.equal(css, output);
   });
 });

@@ -1,6 +1,6 @@
 (function () {
   var rework = require('rework');
-  var match = /(beccapurple)\b/i;
+  var match = /(rebeccapurple)\b/i;
   var colorvalue = '#663399';
 
   module.exports = function (stylesheet) {

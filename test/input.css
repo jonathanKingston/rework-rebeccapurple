@@ -1,19 +1,19 @@
 * {
-  color: beccapurple;
+  color: rebeccapurple;
 }
 
 /**
 
-  beccapurple in memoriam for Rebecca Alison Meyer: http://meyerweb.com/
+  rebeccapurple in memoriam for Rebecca Alison Meyer: http://meyerweb.com/
 
 */
 
 @media (min-height: 10px) {
   body {
     color: #939;
-    color: beccapurple;
-    background: url(images/thing.png) beccapurple;
-    border-color: beccapurple;
-    background-color: color(beccapurple tint(50%));
+    color: rebeccapurple;
+    background: url(images/thing.png) rebeccapurple;
+    border-color: rebeccapurple;
+    background-color: color(rebeccapurple tint(50%));
   }
 }
